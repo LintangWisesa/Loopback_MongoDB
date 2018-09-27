@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongolin": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://lintang:12345@localhost:27017/showroom",
+    "database": "showroom",
+    "password": "12345",
+    "name": "mongolin",
+    "user": "lintang",
+    "connector": "mongodb"
   }
 }
